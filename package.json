@@ -4,12 +4,14 @@
   "description": "Criando uma api completa com nodeJs + typeScript",
   "main": "index.js",
   "scripts": {
+    "dev":"tsx watch src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.10.2",
     "typescript": "^5.7.2"
   },
   "dependencies": {
