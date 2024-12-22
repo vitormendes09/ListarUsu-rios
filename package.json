@@ -4,7 +4,7 @@
   "description": "Criando uma api completa com nodeJs + typeScript",
   "main": "index.js",
   "scripts": {
-    "dev":"tsx watch src/server.ts",
+    "dev": "tsx watch src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,10 +12,12 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.10.2",
+    "prisma": "^6.1.0",
     "typescript": "^5.7.2"
   },
   "dependencies": {
     "@fastify/cors": "^10.0.1",
+    "@prisma/client": "^6.1.0",
     "fastify": "^5.2.0",
     "tsx": "^4.19.2"
   }
