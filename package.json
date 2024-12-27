@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Criando uma api completa com nodeJs + typeScript",
   "main": "index.js",
-  "homepage": "https://vitormendes09.github.io/ListarUsu-rios/",
-  "scripts": {
+  "engines":  {
+    "node": "14.x"
+
+  },
+    "scripts": {
+      "start": "node src/server.ts",
     "dev": "tsx watch src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
